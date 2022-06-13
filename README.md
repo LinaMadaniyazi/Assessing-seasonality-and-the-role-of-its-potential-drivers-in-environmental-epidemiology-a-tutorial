@@ -1,4 +1,4 @@
-# Assessing-seasonality-and-the-role-of-its-potential-drivers-in-environmental-epidemiology-a-tutoria
+# Assessing-seasonality-and-the-role-of-its-potential-drivers-in-environmental-epidemiology-a-tutorial
 
 This repository stores the updated R code to reproduce the analyisis presented in the article:
 
