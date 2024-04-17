@@ -82,11 +82,11 @@ attrs <- function(x,basis,data,model=NULL,coef=NULL,vcov=NULL,type,
 
 ################################################################################
 #
-  # COMPUTE AF AND AN
+  # COMPUTE AF AND AN   
   af <- 1-exp(-logrr)
   an <- af[1,]*cases[,1]
 #
-  # TOTAL
+  # TOTAL  (Note: AN is the annual average AN, not total AN for the study period)
   if(tot) {
     isna <- is.na(an)
     an <- sum(an,na.rm=T)
